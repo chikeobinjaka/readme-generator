@@ -14,7 +14,7 @@
 // The Unlicense
 // For badges: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 // For Github use axios (activities/33-Stu_Axios): https://api.github.com/users/${username}
-function ApacheLicense2_0(owner) {
+function apacheLicense2_0(owner) {
   let fullYear = new Date().getFullYear();
   return `Copyright ${fullYear} ${owner}
 
@@ -31,7 +31,7 @@ function ApacheLicense2_0(owner) {
     limitations under the License.`;
 }
 
-function MITLicense(owner) {
+function mitLicense(owner) {
   let fullYear = new Date().getFullYear();
   return `MIT License
 
@@ -56,7 +56,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.`;
 }
 
-function GNU_GeneralPublicLicenseV3_0() {
+function gnu_GeneralPublicLicenseV3_0() {
   return `This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
@@ -71,7 +71,7 @@ function GNU_GeneralPublicLicenseV3_0() {
     along with this program.  If not, see <https://www.gnu.org/licenses/>.`;
 }
 
-function BSD2_ClauseSimplifiedLicense(owner) {
+function bsd2_ClauseSimplifiedLicense(owner) {
   let fullYear = new Date().getFullYear();
 
   return `Copyright ${fullYear} ${owner}
@@ -96,7 +96,7 @@ function BSD2_ClauseSimplifiedLicense(owner) {
     WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.`;
 }
 
-function BSD2_ClauseSimplifiedLicense(owner) {
+function bsd3_ClauseSimplifiedLicense(owner) {
   let fullYear = new Date().getFullYear();
   return `Copyright ${fullYear} ${owner}
 
@@ -123,7 +123,7 @@ function BSD2_ClauseSimplifiedLicense(owner) {
     WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.`;
 }
 
-function CreativeCommonsZeroV1_0Universal() {
+function creativeCommonsZeroV1_0Universal() {
   return `
         No Copyright
 
@@ -148,7 +148,7 @@ function CreativeCommonsZeroV1_0Universal() {
     When using or citing the work, you should not imply endorsement by the author or the affirmer.
     `;
 }
-function EclipsePublicLicense2_0() {
+function eclipsePublicLicense2_0() {
   return `Eclipse Public License - v 2.0
 
     THE ACCOMPANYING PROGRAM IS PROVIDED UNDER THE TERMS OF THIS ECLIPSE
@@ -357,7 +357,7 @@ function EclipsePublicLicense2_0() {
     You may add additional accurate notices of copyright ownership.`;
 }
 
-function GNUAfferoGeneralPublicLicenseV3_0() {
+function gnuAfferoGeneralPublicLicenseV3_0() {
   return `                        Preamble
     The GNU Affero General Public License is a free, copyleft license for software and other kinds of works, 
     specifically designed to ensure cooperation with the community in the case of network server software.
@@ -858,7 +858,7 @@ function GNUAfferoGeneralPublicLicenseV3_0() {
     the GNU AGPL, see https://www.gnu.org/licenses/.`;
 }
 
-function GNUGeneralPublicLicenseV2_0() {
+function gnuGeneralPublicLicenseV2_0() {
   return `The licenses for most software are designed to take away your freedom to share and change it. By 
   contrast, the GNU General Public License is intended to guarantee your freedom to share and change free 
   software--to make sure the software is free for all its users. This General Public License applies to 
@@ -1118,7 +1118,7 @@ function GNUGeneralPublicLicenseV2_0() {
     General Public License instead of this License.`;
 }
 
-function GNULesserGeneralPublicLicenseV3_0() {
+function gnuLesserGeneralPublicLicenseV3_0() {
   return `               GNU LESSER GENERAL PUBLIC LICENSE
     Version 3, 29 June 2007
 Copyright (C) 2007 Free Software Foundation, Inc. https://fsf.org/ Everyone is permitted to copy and 
@@ -1241,7 +1241,7 @@ Lesser General Public License shall apply, that proxy's public statement of acce
 permanent authorization for you to choose that version for the Library.`;
 }
 
-function MozillaPublicLicense2_0() {
+function mozillaPublicLicense2_0() {
   return `Mozilla Public License Version 2.0
     Definitions
     1.1. "Contributor" means each individual or legal entity that creates, contributes to the creation of, 
@@ -1519,7 +1519,7 @@ function MozillaPublicLicense2_0() {
     License, v. 2.0.`;
 }
 
-function TheUnlicense() {
+function theUnlicense() {
   return `This is free and unencumbered software released into the public domain.
 
     Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either 
