@@ -14,6 +14,9 @@
 // The Unlicense
 // For badges: https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
 // For Github use axios (activities/33-Stu_Axios): https://api.github.com/users/${username}
+function none() {
+  return "None";
+}
 function apacheLicense2_0(owner) {
   let fullYear = new Date().getFullYear();
   return `Copyright ${fullYear} ${owner}
@@ -1540,3 +1543,19 @@ function theUnlicense() {
     
     For more information, please refer to https://unlicense.org`;
 }
+module.exports = {
+  none: none,
+  apacheLicense2_0: apacheLicense2_0,
+  gnu_GeneralPublicLicenseV3_0: gnu_GeneralPublicLicenseV3_0,
+  mitLicense: mitLicense,
+  bsd2_ClauseSimplifiedLicense: bsd2_ClauseSimplifiedLicense,
+  bsd3_ClauseSimplifiedLicense: bsd3_ClauseSimplifiedLicense,
+  creativeCommonsZeroV1_0Universal: creativeCommonsZeroV1_0Universal,
+  eclipsePublicLicense2_0: eclipsePublicLicense2_0,
+  gnuAfferoGeneralPublicLicenseV3_0: gnuAfferoGeneralPublicLicenseV3_0,
+  gnuGeneralPublicLicenseV2_0: gnuGeneralPublicLicenseV2_0,
+  gnuLesserGeneralPublicLicenseV3_0: gnuLesserGeneralPublicLicenseV3_0,
+  gnuLesserGeneralPublicLicenseV3_0: gnuLesserGeneralPublicLicenseV3_0,
+  mozillaPublicLicense2_0: mozillaPublicLicense2_0,
+  theUnlicense: theUnlicense,
+};
